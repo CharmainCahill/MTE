@@ -67,13 +67,6 @@ class Learner:
         self.optimizer.zero_grad()
         self.alpha_optim.zero_grad()
 
-    def init_model(self):
-        model = SloshNet(self.args)
-        model = model.to(self.device) 
-        if self.args.num_gpus > 1:
-            model.distribute_model()
-        return model
-
     def init_data(self):
         train_set = [self.args.dataset]
         validation_set = [self.args.dataset]
