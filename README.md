@@ -54,4 +54,4 @@ bash ./scripts/test.sh
 ```
 
 ## Acknowledgments
-Our code is based on [TRX](https://github.com/tobyperrett/trx).
+Our code is based on [SloshNet](https://github.com/jiazheng-xing/SloshNet).
