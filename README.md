@@ -1,4 +1,4 @@
-[# Multi-Temporal Ensemble for Few-Shot Action Recognition(MTE)
+# Multi-Temporal Ensemble for Few-Shot Action Recognition(MTE)
 
 
 
